@@ -1,17 +1,15 @@
-//
-//  UserLocationApp.swift
-//  UserLocation
-//
-//  Created by Mikkel Hauge on 10/03/2023.
-//
 
 import SwiftUI
 
 @main
 struct UserLocationApp: App {
+	
+	@StateObject var stateController = StateController()
+	@StateObject var locationController = LocationController()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			WelcomeView().environmentObject(stateController).environmentObject(locationController)
         }
     }
 }

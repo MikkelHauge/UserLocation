@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		76383A7729BAFFAB00C19FC1 /* UserLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A7629BAFFAA00C19FC1 /* UserLocationApp.swift */; };
-		76383A7929BAFFAB00C19FC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A7829BAFFAB00C19FC1 /* ContentView.swift */; };
+		76383A7929BAFFAB00C19FC1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A7829BAFFAB00C19FC1 /* WelcomeView.swift */; };
 		76383A7B29BAFFAC00C19FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76383A7A29BAFFAC00C19FC1 /* Assets.xcassets */; };
 		76383A7E29BAFFAC00C19FC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76383A7D29BAFFAC00C19FC1 /* Preview Assets.xcassets */; };
+		76383A8529BB031000C19FC1 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A8429BB031000C19FC1 /* NetworkController.swift */; };
+		76383A8729BB03D300C19FC1 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A8629BB03D300C19FC1 /* RandomUser.swift */; };
+		76383A8929BB047D00C19FC1 /* RandomUserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A8829BB047D00C19FC1 /* RandomUserResult.swift */; };
+		76383A8B29BB04CF00C19FC1 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A8A29BB04CF00C19FC1 /* StateController.swift */; };
+		76383A8D29BB0CCC00C19FC1 /* WhereAmIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A8C29BB0CCC00C19FC1 /* WhereAmIView.swift */; };
+		76383A8F29BB0DE900C19FC1 /* RandomUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A8E29BB0DE900C19FC1 /* RandomUserView.swift */; };
+		76383A9129BB12A300C19FC1 /* RandomUserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A9029BB12A300C19FC1 /* RandomUserDetailView.swift */; };
+		76383A9329BB12DA00C19FC1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383A9229BB12DA00C19FC1 /* MapView.swift */; };
+		76383AB529BB253400C19FC1 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383AB429BB253400C19FC1 /* LocationController.swift */; };
+		76383AB729BB294300C19FC1 /* UserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76383AB629BB294300C19FC1 /* UserImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		76383A7329BAFFAA00C19FC1 /* UserLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76383A7629BAFFAA00C19FC1 /* UserLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationApp.swift; sourceTree = "<group>"; };
-		76383A7829BAFFAB00C19FC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76383A7829BAFFAB00C19FC1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		76383A7A29BAFFAC00C19FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76383A7D29BAFFAC00C19FC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76383A8429BB031000C19FC1 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		76383A8629BB03D300C19FC1 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		76383A8829BB047D00C19FC1 /* RandomUserResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserResult.swift; sourceTree = "<group>"; };
+		76383A8A29BB04CF00C19FC1 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		76383A8C29BB0CCC00C19FC1 /* WhereAmIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereAmIView.swift; sourceTree = "<group>"; };
+		76383A8E29BB0DE900C19FC1 /* RandomUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserView.swift; sourceTree = "<group>"; };
+		76383A9029BB12A300C19FC1 /* RandomUserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserDetailView.swift; sourceTree = "<group>"; };
+		76383A9229BB12DA00C19FC1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		76383AB429BB253400C19FC1 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		76383AB629BB294300C19FC1 /* UserImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				76383A7629BAFFAA00C19FC1 /* UserLocationApp.swift */,
-				76383A7829BAFFAB00C19FC1 /* ContentView.swift */,
+				76383A9729BB147900C19FC1 /* RandomUser */,
+				76383A9629BB146B00C19FC1 /* Controllers */,
+				76383A7829BAFFAB00C19FC1 /* WelcomeView.swift */,
+				76383A9429BB143000C19FC1 /* RandomUserViews */,
+				76383A9529BB145000C19FC1 /* WhereAmIViews */,
 				76383A7A29BAFFAC00C19FC1 /* Assets.xcassets */,
 				76383A7C29BAFFAC00C19FC1 /* Preview Content */,
 			);
@@ -65,6 +89,44 @@
 				76383A7D29BAFFAC00C19FC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76383A9429BB143000C19FC1 /* RandomUserViews */ = {
+			isa = PBXGroup;
+			children = (
+				76383A8E29BB0DE900C19FC1 /* RandomUserView.swift */,
+				76383A9029BB12A300C19FC1 /* RandomUserDetailView.swift */,
+				76383A9229BB12DA00C19FC1 /* MapView.swift */,
+				76383AB629BB294300C19FC1 /* UserImageView.swift */,
+			);
+			path = RandomUserViews;
+			sourceTree = "<group>";
+		};
+		76383A9529BB145000C19FC1 /* WhereAmIViews */ = {
+			isa = PBXGroup;
+			children = (
+				76383A8C29BB0CCC00C19FC1 /* WhereAmIView.swift */,
+			);
+			path = WhereAmIViews;
+			sourceTree = "<group>";
+		};
+		76383A9629BB146B00C19FC1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76383AB429BB253400C19FC1 /* LocationController.swift */,
+				76383A8429BB031000C19FC1 /* NetworkController.swift */,
+				76383A8A29BB04CF00C19FC1 /* StateController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		76383A9729BB147900C19FC1 /* RandomUser */ = {
+			isa = PBXGroup;
+			children = (
+				76383A8829BB047D00C19FC1 /* RandomUserResult.swift */,
+				76383A8629BB03D300C19FC1 /* RandomUser.swift */,
+			);
+			path = RandomUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76383A7929BAFFAB00C19FC1 /* ContentView.swift in Sources */,
+				76383AB529BB253400C19FC1 /* LocationController.swift in Sources */,
+				76383A7929BAFFAB00C19FC1 /* WelcomeView.swift in Sources */,
+				76383A8B29BB04CF00C19FC1 /* StateController.swift in Sources */,
+				76383AB729BB294300C19FC1 /* UserImageView.swift in Sources */,
+				76383A8F29BB0DE900C19FC1 /* RandomUserView.swift in Sources */,
 				76383A7729BAFFAB00C19FC1 /* UserLocationApp.swift in Sources */,
+				76383A8529BB031000C19FC1 /* NetworkController.swift in Sources */,
+				76383A8929BB047D00C19FC1 /* RandomUserResult.swift in Sources */,
+				76383A8729BB03D300C19FC1 /* RandomUser.swift in Sources */,
+				76383A9329BB12DA00C19FC1 /* MapView.swift in Sources */,
+				76383A8D29BB0CCC00C19FC1 /* WhereAmIView.swift in Sources */,
+				76383A9129BB12A300C19FC1 /* RandomUserDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +341,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UserLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +370,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"UserLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
